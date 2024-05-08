@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2024-05-08T23:53:16.436Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="EvF8qO48bzKceHPlnQZH" version="24.3.1" type="device">
+  <diagram name="Página-1" id="ZkwQkTxv7iDg5qXNnPu5">
+    <mxGraphModel dx="880" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="780" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-3" target="XBD5f5iuHCQnU1lDMMpn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-3" target="XBD5f5iuHCQnU1lDMMpn-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="65" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-5" target="XBD5f5iuHCQnU1lDMMpn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-5" value="Generate Number Ticket Temp" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="65" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-7" value="Save number Ticket in Temp_ticket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="65" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-9" target="XBD5f5iuHCQnU1lDMMpn-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-9" value="Insert user data about the show" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-11" target="XBD5f5iuHCQnU1lDMMpn-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-11" value="Start Buy Ticket" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-20" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-15" target="XBD5f5iuHCQnU1lDMMpn-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-24" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-15" target="XBD5f5iuHCQnU1lDMMpn-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-15" value="Check if number is available in ticket database" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="315" width="170" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-19" target="XBD5f5iuHCQnU1lDMMpn-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-19" value="Relationate ticket to user" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="335" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-23" value="No tickets available" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="470" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="275" y="355" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-26" target="XBD5f5iuHCQnU1lDMMpn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-26" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="85" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-31" value="Tickets with NumberTicket" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="685" y="150" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-32" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="235" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XBD5f5iuHCQnU1lDMMpn-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XBD5f5iuHCQnU1lDMMpn-32" target="XBD5f5iuHCQnU1lDMMpn-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
